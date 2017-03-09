@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BD43D551E700F6800522243 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD43D541E700F6800522243 /* AppDelegate.swift */; };
+		4BD43D571E700F6800522243 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD43D561E700F6800522243 /* ViewController.swift */; };
+		4BD43D5A1E700F6800522243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD43D581E700F6800522243 /* Main.storyboard */; };
+		4BD43D5C1E700F6800522243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BD43D5B1E700F6800522243 /* Assets.xcassets */; };
+		4BD43D5F1E700F6800522243 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD43D5D1E700F6800522243 /* LaunchScreen.storyboard */; };
+		4BD43D6A1E700F6800522243 /* CocoaLumberjack_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD43D691E700F6800522243 /* CocoaLumberjack_DemoTests.swift */; };
+		4BD43D751E700F6800522243 /* CocoaLumberjack_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD43D741E700F6800522243 /* CocoaLumberjack_DemoUITests.swift */; };
+		86B874D3AFCE931475F078BA /* Pods_CocoaLumberjack_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9892902A84A8FE51FD69D8 /* Pods_CocoaLumberjack_Demo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BD43D661E700F6800522243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BD43D491E700F6800522243 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BD43D501E700F6800522243;
+			remoteInfo = CocoaLumberjack_Demo;
+		};
+		4BD43D711E700F6800522243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BD43D491E700F6800522243 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BD43D501E700F6800522243;
+			remoteInfo = CocoaLumberjack_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BD43D511E700F6800522243 /* CocoaLumberjack_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaLumberjack_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BD43D541E700F6800522243 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BD43D561E700F6800522243 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BD43D591E700F6800522243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BD43D5B1E700F6800522243 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BD43D5E1E700F6800522243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BD43D601E700F6800522243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BD43D651E700F6800522243 /* CocoaLumberjack_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaLumberjack_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BD43D691E700F6800522243 /* CocoaLumberjack_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaLumberjack_DemoTests.swift; sourceTree = "<group>"; };
+		4BD43D6B1E700F6800522243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BD43D701E700F6800522243 /* CocoaLumberjack_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaLumberjack_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BD43D741E700F6800522243 /* CocoaLumberjack_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaLumberjack_DemoUITests.swift; sourceTree = "<group>"; };
+		4BD43D761E700F6800522243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C9892902A84A8FE51FD69D8 /* Pods_CocoaLumberjack_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaLumberjack_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4799B6BC61FDB7D9807981 /* Pods-CocoaLumberjack_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaLumberjack_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaLumberjack_Demo/Pods-CocoaLumberjack_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		F9826AB34760399037347E8F /* Pods-CocoaLumberjack_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaLumberjack_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaLumberjack_Demo/Pods-CocoaLumberjack_Demo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BD43D4E1E700F6800522243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B874D3AFCE931475F078BA /* Pods_CocoaLumberjack_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD43D621E700F6800522243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD43D6D1E700F6800522243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42885F4E9450A64A31377AE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F4799B6BC61FDB7D9807981 /* Pods-CocoaLumberjack_Demo.debug.xcconfig */,
+				F9826AB34760399037347E8F /* Pods-CocoaLumberjack_Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4BD43D481E700F6800522243 = {
+			isa = PBXGroup;
+			children = (
+				4BD43D531E700F6800522243 /* CocoaLumberjack_Demo */,
+				4BD43D681E700F6800522243 /* CocoaLumberjack_DemoTests */,
+				4BD43D731E700F6800522243 /* CocoaLumberjack_DemoUITests */,
+				4BD43D521E700F6800522243 /* Products */,
+				42885F4E9450A64A31377AE7 /* Pods */,
+				65238E2CD3C21FC6EC3EA8AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4BD43D521E700F6800522243 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BD43D511E700F6800522243 /* CocoaLumberjack_Demo.app */,
+				4BD43D651E700F6800522243 /* CocoaLumberjack_DemoTests.xctest */,
+				4BD43D701E700F6800522243 /* CocoaLumberjack_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BD43D531E700F6800522243 /* CocoaLumberjack_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				4BD43D541E700F6800522243 /* AppDelegate.swift */,
+				4BD43D561E700F6800522243 /* ViewController.swift */,
+				4BD43D581E700F6800522243 /* Main.storyboard */,
+				4BD43D5B1E700F6800522243 /* Assets.xcassets */,
+				4BD43D5D1E700F6800522243 /* LaunchScreen.storyboard */,
+				4BD43D601E700F6800522243 /* Info.plist */,
+			);
+			path = CocoaLumberjack_Demo;
+			sourceTree = "<group>";
+		};
+		4BD43D681E700F6800522243 /* CocoaLumberjack_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BD43D691E700F6800522243 /* CocoaLumberjack_DemoTests.swift */,
+				4BD43D6B1E700F6800522243 /* Info.plist */,
+			);
+			path = CocoaLumberjack_DemoTests;
+			sourceTree = "<group>";
+		};
+		4BD43D731E700F6800522243 /* CocoaLumberjack_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BD43D741E700F6800522243 /* CocoaLumberjack_DemoUITests.swift */,
+				4BD43D761E700F6800522243 /* Info.plist */,
+			);
+			path = CocoaLumberjack_DemoUITests;
+			sourceTree = "<group>";
+		};
+		65238E2CD3C21FC6EC3EA8AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C9892902A84A8FE51FD69D8 /* Pods_CocoaLumberjack_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BD43D501E700F6800522243 /* CocoaLumberjack_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BD43D791E700F6800522243 /* Build configuration list for PBXNativeTarget "CocoaLumberjack_Demo" */;
+			buildPhases = (
+				E355CD23553BE36E6E9BC89B /* [CP] Check Pods Manifest.lock */,
+				4BD43D4D1E700F6800522243 /* Sources */,
+				4BD43D4E1E700F6800522243 /* Frameworks */,
+				4BD43D4F1E700F6800522243 /* Resources */,
+				745CC39F209CB6926CAAB499 /* [CP] Embed Pods Frameworks */,
+				6BABD47597977F11EFD341B5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaLumberjack_Demo;
+			productName = CocoaLumberjack_Demo;
+			productReference = 4BD43D511E700F6800522243 /* CocoaLumberjack_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BD43D641E700F6800522243 /* CocoaLumberjack_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BD43D7C1E700F6800522243 /* Build configuration list for PBXNativeTarget "CocoaLumberjack_DemoTests" */;
+			buildPhases = (
+				4BD43D611E700F6800522243 /* Sources */,
+				4BD43D621E700F6800522243 /* Frameworks */,
+				4BD43D631E700F6800522243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BD43D671E700F6800522243 /* PBXTargetDependency */,
+			);
+			name = CocoaLumberjack_DemoTests;
+			productName = CocoaLumberjack_DemoTests;
+			productReference = 4BD43D651E700F6800522243 /* CocoaLumberjack_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BD43D6F1E700F6800522243 /* CocoaLumberjack_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BD43D7F1E700F6800522243 /* Build configuration list for PBXNativeTarget "CocoaLumberjack_DemoUITests" */;
+			buildPhases = (
+				4BD43D6C1E700F6800522243 /* Sources */,
+				4BD43D6D1E700F6800522243 /* Frameworks */,
+				4BD43D6E1E700F6800522243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BD43D721E700F6800522243 /* PBXTargetDependency */,
+			);
+			name = CocoaLumberjack_DemoUITests;
+			productName = CocoaLumberjack_DemoUITests;
+			productReference = 4BD43D701E700F6800522243 /* CocoaLumberjack_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BD43D491E700F6800522243 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = xiaohui;
+				TargetAttributes = {
+					4BD43D501E700F6800522243 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					4BD43D641E700F6800522243 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4BD43D501E700F6800522243;
+					};
+					4BD43D6F1E700F6800522243 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4BD43D501E700F6800522243;
+					};
+				};
+			};
+			buildConfigurationList = 4BD43D4C1E700F6800522243 /* Build configuration list for PBXProject "CocoaLumberjack_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BD43D481E700F6800522243;
+			productRefGroup = 4BD43D521E700F6800522243 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BD43D501E700F6800522243 /* CocoaLumberjack_Demo */,
+				4BD43D641E700F6800522243 /* CocoaLumberjack_DemoTests */,
+				4BD43D6F1E700F6800522243 /* CocoaLumberjack_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BD43D4F1E700F6800522243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD43D5F1E700F6800522243 /* LaunchScreen.storyboard in Resources */,
+				4BD43D5C1E700F6800522243 /* Assets.xcassets in Resources */,
+				4BD43D5A1E700F6800522243 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD43D631E700F6800522243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD43D6E1E700F6800522243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BABD47597977F11EFD341B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CocoaLumberjack_Demo/Pods-CocoaLumberjack_Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		745CC39F209CB6926CAAB499 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CocoaLumberjack_Demo/Pods-CocoaLumberjack_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E355CD23553BE36E6E9BC89B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BD43D4D1E700F6800522243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD43D571E700F6800522243 /* ViewController.swift in Sources */,
+				4BD43D551E700F6800522243 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD43D611E700F6800522243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD43D6A1E700F6800522243 /* CocoaLumberjack_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD43D6C1E700F6800522243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD43D751E700F6800522243 /* CocoaLumberjack_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BD43D671E700F6800522243 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BD43D501E700F6800522243 /* CocoaLumberjack_Demo */;
+			targetProxy = 4BD43D661E700F6800522243 /* PBXContainerItemProxy */;
+		};
+		4BD43D721E700F6800522243 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BD43D501E700F6800522243 /* CocoaLumberjack_Demo */;
+			targetProxy = 4BD43D711E700F6800522243 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BD43D581E700F6800522243 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BD43D591E700F6800522243 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BD43D5D1E700F6800522243 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BD43D5E1E700F6800522243 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BD43D771E700F6800522243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BD43D781E700F6800522243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BD43D7A1E700F6800522243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F4799B6BC61FDB7D9807981 /* Pods-CocoaLumberjack_Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CocoaLumberjack_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xxx.CocoaLumberjack-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4BD43D7B1E700F6800522243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9826AB34760399037347E8F /* Pods-CocoaLumberjack_Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CocoaLumberjack_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xxx.CocoaLumberjack-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4BD43D7D1E700F6800522243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CocoaLumberjack_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xxx.CocoaLumberjack-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoaLumberjack_Demo.app/CocoaLumberjack_Demo";
+			};
+			name = Debug;
+		};
+		4BD43D7E1E700F6800522243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CocoaLumberjack_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xxx.CocoaLumberjack-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoaLumberjack_Demo.app/CocoaLumberjack_Demo";
+			};
+			name = Release;
+		};
+		4BD43D801E700F6800522243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CocoaLumberjack_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xxx.CocoaLumberjack-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CocoaLumberjack_Demo;
+			};
+			name = Debug;
+		};
+		4BD43D811E700F6800522243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CocoaLumberjack_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xxx.CocoaLumberjack-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CocoaLumberjack_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BD43D4C1E700F6800522243 /* Build configuration list for PBXProject "CocoaLumberjack_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BD43D771E700F6800522243 /* Debug */,
+				4BD43D781E700F6800522243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BD43D791E700F6800522243 /* Build configuration list for PBXNativeTarget "CocoaLumberjack_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BD43D7A1E700F6800522243 /* Debug */,
+				4BD43D7B1E700F6800522243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BD43D7C1E700F6800522243 /* Build configuration list for PBXNativeTarget "CocoaLumberjack_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BD43D7D1E700F6800522243 /* Debug */,
+				4BD43D7E1E700F6800522243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BD43D7F1E700F6800522243 /* Build configuration list for PBXNativeTarget "CocoaLumberjack_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BD43D801E700F6800522243 /* Debug */,
+				4BD43D811E700F6800522243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BD43D491E700F6800522243 /* Project object */;
+}
