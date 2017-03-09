@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4B89EE011E71394700FBE320 /* XHLogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B89EE001E71394700FBE320 /* XHLogFormatter.swift */; };
+		4B89EE041E71557600FBE320 /* XHLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B89EE031E71557600FBE320 /* XHLogFormatter.m */; };
 		4BD43D551E700F6800522243 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD43D541E700F6800522243 /* AppDelegate.swift */; };
 		4BD43D571E700F6800522243 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD43D561E700F6800522243 /* ViewController.swift */; };
 		4BD43D5A1E700F6800522243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD43D581E700F6800522243 /* Main.storyboard */; };
@@ -37,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		4B89EE001E71394700FBE320 /* XHLogFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XHLogFormatter.swift; sourceTree = "<group>"; };
+		4B89EE021E71557600FBE320 /* XHLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLogFormatter.h; sourceTree = "<group>"; };
+		4B89EE031E71557600FBE320 /* XHLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLogFormatter.m; sourceTree = "<group>"; };
 		4BD43D511E700F6800522243 /* CocoaLumberjack_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaLumberjack_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD43D541E700F6800522243 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BD43D561E700F6800522243 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +122,8 @@
 				4BD43D541E700F6800522243 /* AppDelegate.swift */,
 				4BD43D561E700F6800522243 /* ViewController.swift */,
 				4B89EE001E71394700FBE320 /* XHLogFormatter.swift */,
+				4B89EE021E71557600FBE320 /* XHLogFormatter.h */,
+				4B89EE031E71557600FBE320 /* XHLogFormatter.m */,
 				4BD43D581E700F6800522243 /* Main.storyboard */,
 				4BD43D5B1E700F6800522243 /* Assets.xcassets */,
 				4BD43D5D1E700F6800522243 /* LaunchScreen.storyboard */,
@@ -341,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B89EE011E71394700FBE320 /* XHLogFormatter.swift in Sources */,
+				4B89EE041E71557600FBE320 /* XHLogFormatter.m in Sources */,
 				4BD43D571E700F6800522243 /* ViewController.swift in Sources */,
 				4BD43D551E700F6800522243 /* AppDelegate.swift in Sources */,
 			);
