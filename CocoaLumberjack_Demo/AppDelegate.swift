@@ -16,28 +16,61 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
+        /*
+         
+        // 1.简单测试
+        
+        // 配置DDLog对象
         DDLog.add(DDTTYLogger.sharedInstance) // TTY = Xcode console
         DDLog.add(DDASLLogger.sharedInstance) // ASL = Apple System Logs
         
-        let fileLogger: DDFileLogger = DDFileLogger() // File Logger
-        fileLogger.rollingFrequency = TimeInterval(60*60*24)  // 24 hours
-        fileLogger.logFileManager.maximumNumberOfLogFiles = 7
-        DDLog.add(fileLogger)
-            
-        
+        // 使用CocoaLumberjack中的函数在终端打印日志信息
         DDLogVerbose("Verbose");
         DDLogDebug("Debug");
         DDLogInfo("Info");
         DDLogWarn("Warn");
         DDLogError("Error");
+
+        // 将CocoaLumberjack中打印的日志信息输出到文件中
+        let fileLogger: DDFileLogger = DDFileLogger()
+        fileLogger.maximumFileSize = 1024 * 1024
+        fileLogger.rollingFrequency = TimeInterval(60 * 60 * 24)
+        fileLogger.logFileManager.maximumNumberOfLogFiles = 7
+        DDLog.add(fileLogger)
         
-        
+        // 输出日志文件路径和文件名
         DDLogInfo(fileLogger.currentLogFileInfo.filePath)
         DDLogInfo(fileLogger.currentLogFileInfo.fileName)
+         
+        */
         
         
         
-//        DDLogDebug(<#T##message: String##String#>, level: <#T##DDLogLevel#>, context: <#T##Int#>, tag: <#T##Any?#>, asynchronous: <#T##Bool#>, ddlog: <#T##DDLog#>)
+        // 2.按招自定义的格式来输出日志
+        
+        // 初始化自定义的格式对象
+        let formatter = XHLogFormatter()
+        
+        // 添加输出到Xcode控制台
+        DDTTYLogger.sharedInstance.logFormatter = formatter
+        DDLog.add(DDTTYLogger.sharedInstance)
+        
+        // 添加输出到Console
+        DDASLLogger.sharedInstance.logFormatter = formatter
+        DDLog.add(DDASLLogger.sharedInstance)
+        
+        // 添加输出到文件
+        let fileLogger: DDFileLogger = DDFileLogger()
+        fileLogger.maximumFileSize = 1024 * 1024
+        fileLogger.rollingFrequency = TimeInterval(60 * 60 * 24)
+        fileLogger.logFileManager.maximumNumberOfLogFiles = 7
+        fileLogger.logFormatter = formatter
+        DDLog.add(fileLogger)
+        
+        // 添加输出到数据库
+        let dbLogger = DDAbstractDatabaseLogger()
+        dbLogger.logFormatter = formatter
+        DDLog.add(dbLogger)
         
         return true
     }

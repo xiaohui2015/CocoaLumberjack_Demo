@@ -12,8 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        DDLogInfo("1234")
+     
+        DDLogDebug("let's have a try!")
     }
 
     override func didReceiveMemoryWarning() {
