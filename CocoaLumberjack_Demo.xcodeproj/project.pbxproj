@@ -48,6 +48,7 @@
 		4BD43D701E700F6800522243 /* CocoaLumberjack_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaLumberjack_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD43D741E700F6800522243 /* CocoaLumberjack_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaLumberjack_DemoUITests.swift; sourceTree = "<group>"; };
 		4BD43D761E700F6800522243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BD43D851E712EDF00522243 /* CocoaLumberjack_Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack_Demo-Bridging-Header.h"; sourceTree = "<group>"; };
 		6C9892902A84A8FE51FD69D8 /* Pods_CocoaLumberjack_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaLumberjack_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4799B6BC61FDB7D9807981 /* Pods-CocoaLumberjack_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaLumberjack_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaLumberjack_Demo/Pods-CocoaLumberjack_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		F9826AB34760399037347E8F /* Pods-CocoaLumberjack_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaLumberjack_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaLumberjack_Demo/Pods-CocoaLumberjack_Demo.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +120,7 @@
 				4BD43D5B1E700F6800522243 /* Assets.xcassets */,
 				4BD43D5D1E700F6800522243 /* LaunchScreen.storyboard */,
 				4BD43D601E700F6800522243 /* Info.plist */,
+				4BD43D851E712EDF00522243 /* CocoaLumberjack_Demo-Bridging-Header.h */,
 			);
 			path = CocoaLumberjack_Demo;
 			sourceTree = "<group>";
@@ -220,6 +222,7 @@
 				TargetAttributes = {
 					4BD43D501E700F6800522243 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					4BD43D641E700F6800522243 = {
@@ -486,10 +489,14 @@
 			baseConfigurationReference = 7F4799B6BC61FDB7D9807981 /* Pods-CocoaLumberjack_Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CocoaLumberjack_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xxx.CocoaLumberjack-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CocoaLumberjack_Demo/CocoaLumberjack_Demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -499,10 +506,13 @@
 			baseConfigurationReference = F9826AB34760399037347E8F /* Pods-CocoaLumberjack_Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CocoaLumberjack_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xxx.CocoaLumberjack-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CocoaLumberjack_Demo/CocoaLumberjack_Demo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

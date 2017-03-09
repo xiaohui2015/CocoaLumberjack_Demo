@@ -8,8 +8,6 @@
 
 import UIKit
 
-import CocoaLumberjack
-
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -32,6 +30,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         DDLogInfo("Info");
         DDLogWarn("Warn");
         DDLogError("Error");
+        
+        
+        DDLogInfo(fileLogger.currentLogFileInfo.filePath)
+        DDLogInfo(fileLogger.currentLogFileInfo.fileName)
+        
+        
         
 //        DDLogDebug(<#T##message: String##String#>, level: <#T##DDLogLevel#>, context: <#T##Int#>, tag: <#T##Any?#>, asynchronous: <#T##Bool#>, ddlog: <#T##DDLog#>)
         
